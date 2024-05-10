@@ -7,6 +7,6 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 # Getting Started
 
 ```bash
+cd react-native-tvos-scrolling-bug
 yarn tvos
-``
 ```
