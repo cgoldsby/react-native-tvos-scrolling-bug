@@ -77,7 +77,8 @@ const App = () => {
             ' / ' +
             (longTextEnabled ? 'Long' : 'Short') +
             ' text / ' +
-            (horizontalContent ? 'Horizontal' : 'Vertical')}
+            (horizontalContent ? 'Horizontal' : 'Vertical') +
+            ' content'}
         </Text>
         <TVTextScrollView
           scrollEnabled={scrollEnabled}
