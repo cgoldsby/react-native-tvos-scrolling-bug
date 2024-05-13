@@ -40,6 +40,7 @@ const Button: FunctionComponent<PressableProps & {text: string}> = props => {
 const App = () => {
   const [scrollEnabled, setScrollEnabled] = useState(false);
   const [longTextEnabled, setLongTextEnabled] = useState(false);
+  const [horizontalContent, setHorizontalContent] = useState(false);
 
   const onEnableScrolling = () => {
     setScrollEnabled(!scrollEnabled);
@@ -47,6 +48,10 @@ const App = () => {
 
   const onEnableLongText = () => {
     setLongTextEnabled(!longTextEnabled);
+  };
+
+  const onEnableHorizontalContent = () => {
+    setHorizontalContent(!horizontalContent);
   };
 
   return (
@@ -60,14 +65,23 @@ const App = () => {
           text={longTextEnabled ? 'Long' : 'Short'}
           onPress={onEnableLongText}
         />
+        <Button
+          text={horizontalContent ? 'Horizontal' : 'Vertical'}
+          onPress={onEnableHorizontalContent}
+        />
       </View>
       <View style={styles.textContainer}>
         <Text style={[styles.text, styles.textHeader]}>
-          {(longTextEnabled ? 'Long' : 'Short') +
-            ' text / Scrolling ' +
-            (scrollEnabled ? 'enabled' : 'disabled')}
+          {'Scrolling ' +
+            (scrollEnabled ? 'enabled' : 'disabled') +
+            ' / ' +
+            (longTextEnabled ? 'Long' : 'Short') +
+            ' text / ' +
+            (horizontalContent ? 'Horizontal' : 'Vertical')}
         </Text>
-        <TVTextScrollView scrollEnabled={scrollEnabled}>
+        <TVTextScrollView
+          scrollEnabled={scrollEnabled}
+          horizontal={horizontalContent}>
           <Text style={styles.text}>
             {longText.slice(0, longTextEnabled ? longText.length : 400) +
               '\n\nThe end.'}
