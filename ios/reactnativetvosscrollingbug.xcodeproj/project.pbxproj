@@ -15,8 +15,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* reactnativetvosscrollingbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactnativetvosscrollingbugTests.m */; };
+		3F1B1656996C9808F52C8F0E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A469171366C5DF5BA62369BA /* PrivacyInfo.xcprivacy */; };
 		47EB63F3390701B2260096C6 /* libPods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0216F1136BF7C90703C880F /* libPods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DE7641D634DEB88CC6B70C1F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2A806A3D9BE63D367D002BED /* PrivacyInfo.xcprivacy */; };
 		EE57DEA5314790D63C074D03 /* libPods-reactnativetvosscrollingbug-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54FCF2086BA3B4678F8237 /* libPods-reactnativetvosscrollingbug-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -48,12 +50,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativetvosscrollingbug/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativetvosscrollingbug/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativetvosscrollingbug/main.m; sourceTree = "<group>"; };
+		2A806A3D9BE63D367D002BED /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = reactnativetvosscrollingbug/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* reactnativetvosscrollingbug-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactnativetvosscrollingbug-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* reactnativetvosscrollingbug-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactnativetvosscrollingbug-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		388308430DF4BE056B0CEF13 /* Pods-reactnativetvosscrollingbug-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetvosscrollingbug-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactnativetvosscrollingbug-tvOS/Pods-reactnativetvosscrollingbug-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		3BDF8C4CCF278F944E8C6CBF /* Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests/Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactnativetvosscrollingbug/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0216F1136BF7C90703C880F /* libPods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A469171366C5DF5BA62369BA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = reactnativetvosscrollingbug/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		CCE9A90FED9D09047497AB6D /* Pods-reactnativetvosscrollingbug-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetvosscrollingbug-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactnativetvosscrollingbug-tvOS/Pods-reactnativetvosscrollingbug-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E8891750AE2DFBD87A5BDB74 /* Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests/Pods-reactnativetvosscrollingbug-tvOS-reactnativetvosscrollingbug-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA54FCF2086BA3B4678F8237 /* libPods-reactnativetvosscrollingbug-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativetvosscrollingbug-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +126,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				2A806A3D9BE63D367D002BED /* PrivacyInfo.xcprivacy */,
 			);
 			name = reactnativetvosscrollingbug;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9B1644CBAE2FABCCC6E29A69 /* Pods */,
+				A469171366C5DF5BA62369BA /* PrivacyInfo.xcprivacy */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -325,6 +331,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DE7641D634DEB88CC6B70C1F /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				3F1B1656996C9808F52C8F0E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

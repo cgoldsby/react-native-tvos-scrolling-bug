@@ -9,10 +9,13 @@
     "start": "expo start",
     "tvos": "expo run:ios --scheme reactnativetvosscrollingbug-tvOS --device \"Apple TV\"",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "expo": "^50.0.2",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "react": "18.2.0",
     "react-native": "npm:react-native-tvos@^0.74.0-0"
   },
